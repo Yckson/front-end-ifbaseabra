@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav{
+    background-image: linear-gradient(to bottom, #000, rgb(31, 30, 30));
+    padding: 30px;
+    color: white;
+}
+
+div.banner{
+    width: 100%;
+    background-image: url('../src/img/02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.banner > div{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: center;
+    padding: 200px;
+    color: white;
+}
+
+div.banner h1{
+    font-size: 24pt;
+}
+
+div.banner a{
+    text-decoration: none;
+    display: inline-block;
+    color: #28a745;
+    border: 2px solid #28a745;
+    border-radius: 7px;
+    font-size: 18pt;
+    padding: 10px;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+footer{
+    padding: 5px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+}
+
+div.sectionDivision{
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(45, 75, 45);
+    color: white;
+}
+
+div.siteList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    width: 100%;
+    justify-content: center;
+}
+
+div.siteCard{
+    width: calc(100% / 4.5);
+    margin: 10px 40px;
+    text-align: center;
+    border: 1px solid #28a745;
+}
+
+img.siteImage{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div.siteCard > div.siteDesc *{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+div.siteDesc > h3{
+    color: #646464;
+    font-weight: lighter;
+}
+
+a.siteLink{
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
