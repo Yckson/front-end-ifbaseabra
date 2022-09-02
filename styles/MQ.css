@@ -29,6 +29,7 @@
     div.banner a{
         padding: 10px !important;
         font-size: 12pt !important;
+        margin-top: 100px !important;
     }
 
     div.sectionDivision{
@@ -43,4 +44,33 @@
         width: 80% !important;
         min-width: 380px !important;
     }
+}
+
+@media screen and (max-width: 540px){
+    div.banner h1{
+        font-size: 12pt !important;
+    }
+
+    div.banner > div{
+        padding: 75px !important;
+    }
+
+    div.banner a{
+        margin-top: 50px !important;
+    }
+    div.sectionDivision{
+        font-size: 8pt;
+    }
+}
+
+div.banner a:hover{
+    background-color: #28a745;
+    color: white;
+    border-color: white;
+}
+
+a.siteLink:hover{
+    background-color: whitesmoke;
+    color: #28a745;
+    border-top: #28a745 solid 1px;
 }

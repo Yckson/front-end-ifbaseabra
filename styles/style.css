@@ -50,6 +50,7 @@ div.banner a{
     padding: 10px;
     margin-top: 150px;
     font-weight: bolder;
+    transition-duration: 0.1s;
 }
 
 footer{
@@ -61,7 +62,7 @@ footer{
 }
 
 div.sectionDivision{
-    padding: 25px 0;
+    padding: 20px 0;
     text-align: center;
     width: 100%;
     background-color: rgb(45, 75, 45);
@@ -108,4 +109,6 @@ a.siteLink{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    border-top: solid 1px transparent;
+    transition: 0.2s;
 }
