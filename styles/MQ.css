@@ -3,6 +3,7 @@
 @media screen and (max-width: 1078px) {
     nav{
         text-align: center;
+        padding: 20px !important;
     }
 
     div.banner > div{
@@ -18,6 +19,7 @@
 @media screen and (max-width: 780px){
     nav{
         font-size: 10pt;
+        padding: 10px !important;
     }
 
     div.banner h1{
