@@ -59,6 +59,11 @@
     }
     div.sectionDivision{
         font-size: 8pt;
+        padding: 15px 0;
+    }
+
+    footer{
+        font-size: 6pt !important; 
     }
 }
 
