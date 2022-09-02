@@ -1,0 +1,44 @@
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 1078px) {
+    nav{
+        text-align: center;
+    }
+
+    div.banner > div{
+        padding: 100px !important;
+    }
+
+    div.sectionDivision{
+        padding: 15px !important;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    nav{
+        font-size: 10pt;
+    }
+
+    div.banner h1{
+        font-size: 16pt !important;
+    }
+
+    div.banner a{
+        padding: 10px !important;
+        font-size: 12pt !important;
+    }
+
+    div.sectionDivision{
+        font-size: 10pt;
+    }
+
+    footer{
+        font-size: 8pt !important;
+    }
+
+    div.siteCard{
+        width: 80% !important;
+        min-width: 380px !important;
+    }
+}
