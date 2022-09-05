@@ -78,11 +78,14 @@ div.siteList{
 }
 
 div.siteCard{
+    display: flex;
+    flex-direction: column;
     width: calc(100% / 4.5);
     margin: 10px 40px;
     text-align: center;
     border: 1px solid #28a745;
     min-width: 320px;
+    justify-content: space-between;
 }
 
 img.siteImage{
